@@ -1,0 +1,43 @@
+body{
+    background-image: url("http://drobs.ru/opyat/23/pyatna_fon_svetlyy_razmytost_1920x1080.jpg");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.hvr-buzz {
+  width: 500px;
+  height: 150px;
+border-radius: 10px 10px 10px 10px;
+}
+#monovsrobo{position:fixed; left:500px; top:10px;}
+#supovsbato{position:fixed; left:500px; top:180px;}
+#jakovsfino{position:fixed; left:500px; top:350px;}
+#rabovscaro{position:fixed; left:500px; top:520px;}
+
+
+#Blur:hover img {
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+    transform: scale(1);
+}
+#Blur img:hover {
+         -webkit-filter: blur(0);
+    filter: blur(0);
+        -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+}
+label {
+    color: white;
+    font-size: 1.35em;
+}
+#result {
+  font-size: 6em;
+  color: white;
+  position:fixed;
+  left:500px;
+  top:10px;
+}
